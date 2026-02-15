@@ -2,11 +2,11 @@
 
 <h1 align="center">Ripple UI v4 Fork</h1>
 
-<a href="https://www.npmjs.com/package/namiui">
-  <img src="https://img.shields.io/npm/v/namiui?color=green" alt="npm version">
+<a href="https://www.npmjs.com/package/@wisdom_plus/namiui">
+  <img src="https://img.shields.io/npm/v/@wisdom_plus/namiui?color=green" alt="npm version">
 </a>
-<a href="https://www.npmjs.com/package/namiui">
-  <img src="https://img.shields.io/npm/l/namiui" alt="license">
+<a href="https://www.npmjs.com/package/@wisdom_plus/namiui">
+  <img src="https://img.shields.io/npm/l/@wisdom_plus/namiui" alt="license">
 </a>
 
 Tailwind CSS v4-ready fork of RippleUI.
@@ -14,7 +14,7 @@ Tailwind CSS v4-ready fork of RippleUI.
 ## Usage
 
 ```bash
-npm install namiui
+npm install @wisdom_plus/namiui
 ```
 
 Add the plugin to your `tailwind.config.js`:
@@ -22,7 +22,7 @@ Add the plugin to your `tailwind.config.js`:
 ```js
 module.exports = {
   // ...rest of your config
-  plugins: [require("namiui")],
+  plugins: [require("@wisdom_plus/namiui")],
 };
 ```
 

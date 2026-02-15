@@ -37,7 +37,7 @@ export const Hero = () => {
                   iconClass="sm:max-w-md top-10"
                   blockClass="sm:max-w-md"
                   language="bash"
-                >{`npm install namiui`}</CodeBlock>
+                >{`npm install @wisdom_plus/namiui`}</CodeBlock>
               </div>
             </div>
           </div>

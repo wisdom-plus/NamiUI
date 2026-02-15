@@ -4,5 +4,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("namiui")],
+  plugins: [require("@wisdom_plus/namiui")],
 };

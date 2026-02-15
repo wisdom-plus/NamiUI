@@ -1,5 +1,5 @@
 {
-  "name": "namiui-docs",
+  "name": "@wisdom_plus/namiui-docs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -34,7 +34,7 @@
     "react-dom": "18.2.0",
     "rehype-slug": "^5.1.0",
     "remark-mdx-code-meta": "^2.0.0",
-    "namiui": "file:..",
+    "@wisdom_plus/namiui": "file:..",
     "typescript": "4.9.3"
   },
   "devDependencies": {

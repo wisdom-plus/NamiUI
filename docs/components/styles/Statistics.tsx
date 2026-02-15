@@ -2,15 +2,16 @@ import React, { useEffect, useState } from "react";
 import { items } from "../../utils/items";
 
 export const Statistics = () => {
-  const projectName = "namiui";
+  const projectName = "@wisdom_plus/namiui";
   const githubProjectName = "wisdom-plus/NamiUI";
   const [totalDownloads, setTotalDownloads] = useState("");
   const [repoStars, setRepoStars] = useState("");
   const [totalContributors, setTotalContributors] = useState("");
 
   async function getTotalDownloads() {
+    const encodedPackageName = encodeURIComponent(projectName);
     const response = await fetch(
-      `https://api.npmjs.org/downloads/point/last-month/${projectName}`
+      `https://api.npmjs.org/downloads/point/last-month/${encodedPackageName}`
     );
     const data = await response.json();
     return data.downloads;

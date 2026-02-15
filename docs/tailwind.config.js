@@ -1,4 +1,4 @@
-/** @type {import('namiui').Config} */
+/** @type {import('@wisdom_plus/namiui').Config} */
 const config = {
   themes: [
     {
@@ -28,7 +28,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require("namiui")({
+    require("@wisdom_plus/namiui")({
       ...config,
     }),
   ],

@@ -30,7 +30,7 @@ export const GetStarted = () => {
               iconClass="sm:max-w-md top-10"
               blockClass="sm:max-w-md"
               language="bash"
-            >{`npm install namiui`}</CodeBlock>
+            >{`npm install @wisdom_plus/namiui`}</CodeBlock>
           </div>
           <p className="mx-auto w-full max-w-lg  pt-10 text-content2">
             Read our{" "}
@@ -59,7 +59,7 @@ export const GetStarted = () => {
               language="html"
             >{`<link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/namiui@${RippleUIVersion}/dist/css/styles.css"
+  href="https://cdn.jsdelivr.net/npm/@wisdom_plus/namiui@${RippleUIVersion}/dist/css/styles.css"
 />`}</CodeBlock>
           </div>
         </div>

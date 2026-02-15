@@ -19,7 +19,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4",
-    "namiui": "file:../.."
+    "@wisdom_plus/namiui": "file:../.."
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
