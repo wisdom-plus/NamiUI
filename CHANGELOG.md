@@ -1,13 +1,17 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
 
-## [2.0.0] - 2026-02-15
+## NamiUI Releases
+
+The entries in this section are for the independently maintained NamiUI project.
+
+## [0.1.0] - 2026-02-15
 
 ### Breaking Changes
 
 - Migrated from Tailwind CSS v3 to v4 and set this fork as v4-only.
-- Package name changed to `namiui`.
+- Package name changed to `@wisdom_plus/namiui`.
 
 ### Changed
 
@@ -17,7 +21,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Notes
 
-- Existing known test failure before migration: `__test__/safeList.test.ts` (`bg-blue-1` expectation).
+- Original RippleUI history is preserved below for reference.
+
+---
+
+## RippleUI Legacy History (Reference)
+
+The entries below are from the original RippleUI project:
+https://github.com/Siumauricio/rippleui
 
 ### [1.12.1](https://github.com/Siumauricio/rippleui/compare/v1.12.0...v1.12.1) (2023-04-23)
 
