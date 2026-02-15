@@ -6,7 +6,7 @@ export const ExamplesRepositories = () => {
     <div className="flex flex-row flex-wrap justify-center gap-4 pt-6 sm:justify-start">
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/my-react-app"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-react-app"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1"
@@ -42,7 +42,7 @@ export const ExamplesRepositories = () => {
       </Link>
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/nextjs-example"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/nextjs-example"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1 "
@@ -73,7 +73,7 @@ export const ExamplesRepositories = () => {
 
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/vuejs-example"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/vuejs-example"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1 "
@@ -103,7 +103,7 @@ export const ExamplesRepositories = () => {
 
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/my-angular-project"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-angular-project"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1 "
@@ -134,7 +134,7 @@ export const ExamplesRepositories = () => {
 
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/my-remix-app"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-remix-app"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1 "
@@ -244,7 +244,7 @@ export const ExamplesRepositories = () => {
 
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/gastby-example"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/gastby-example"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1 "
@@ -267,7 +267,7 @@ export const ExamplesRepositories = () => {
 
       <Link
         href={
-          "https://github.com/Siumauricio/rippleui/tree/main/examples/my-svelte-app"
+          "https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-svelte-app"
         }
         target="_blank"
         className="hover:bg-gray-4 flex w-fit cursor-pointer flex-col gap-2 rounded-lg border border-border p-5 transition-transform hover:-translate-y-1 "

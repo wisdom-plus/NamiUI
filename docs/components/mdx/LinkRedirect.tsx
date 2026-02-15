@@ -66,7 +66,7 @@ const LinkRedirect = ({
           className="hover:text-blue-9 cursor-pointer text-primary"
           rel="noreferrer nofollow"
           href={
-            "https://github.com/Siumauricio/rippleui/tree/main/docs/content" +
+            "https://github.com/wisdom-plus/NamiUI/tree/main/docs/content" +
             urlContent +
             ".mdx"
           }

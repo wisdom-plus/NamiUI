@@ -120,7 +120,7 @@ export const Sidebar = () => {
 
               <Link
                 aria-label="RippleUI Github"
-                href={"https://github.com/Siumauricio/rippleui"}
+                href={"https://github.com/wisdom-plus/NamiUI"}
                 target="_blank"
                 className="cursor-pointer "
               >

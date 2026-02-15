@@ -106,7 +106,7 @@ export const NavbarDocs = () => {
             </Link>
             <Link
               aria-label="RippleUI Github"
-              href={"https://github.com/Siumauricio/rippleui"}
+              href={"https://github.com/wisdom-plus/NamiUI"}
               target="_blank"
               className="hidden cursor-pointer lg:flex"
             >

@@ -20,7 +20,7 @@ We provide types for all the colors that you can customize or change some flags 
 ```js disableTabs={true}
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     // You will have all the properties available
   },
@@ -33,7 +33,7 @@ To customize the default themes which is `light` and `dark` you can use the `the
 
 ```js disableTabs={true}
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     themes: [
       {
@@ -63,7 +63,7 @@ To add a new theme you can use the `theme` array property:
 
 ```js disableTabs={true}
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     themes: [
       {
@@ -85,7 +85,7 @@ To remove a theme you can use the `removeThemes` array property:
 
 ```js disableTabs={true}
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     removeThemes: ["dark", "light", "whateverTheme"],
   },
@@ -97,7 +97,7 @@ module.exports = {
 To create a new theme or existing ones but with another variables you can use the `theme` array property:
 
 ```js disableTabs={true}
-/** @type {import('rippleui').Config} */
+/** @type {import('namiui').Config} */
 const config = {
   themes: [
     {
@@ -113,7 +113,7 @@ const config = {
 };
 module.exports = {
   plugins: [
-    require("rippleui")({
+    require("namiui")({
       ...config,
     }),
   ],
@@ -126,7 +126,7 @@ To disable the background color and color that comes by default you can use the 
 
 ```js disableTabs={true}
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     defaultStyle: false,
   },
@@ -141,7 +141,7 @@ When you have devices with theme preference in `macOS`, `Windows` or `Linux` you
 
 ```js disableTabs={true}
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     themes: [
       {
@@ -165,7 +165,7 @@ To add a prefix to each RippleUI class you can use the `prefix` string property:
 
 ```js disableTabs={true}
 module.exports = {
-  /** @type {import('rippleui').Config} */
+  /** @type {import('namiui').Config} */
   rippleui: {
     prefix: "prefix-",
   },

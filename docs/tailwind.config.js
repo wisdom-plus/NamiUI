@@ -1,4 +1,4 @@
-/** @type {import('rippleui').Config} */
+/** @type {import('namiui').Config} */
 const config = {
   themes: [
     {
@@ -28,7 +28,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require("rippleui")({
+    require("namiui")({
       ...config,
     }),
   ],

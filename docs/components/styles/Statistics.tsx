@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { items } from "../../utils/items";
 
 export const Statistics = () => {
-  const projectName = "rippleui";
-  const githubProjectName = "siumauricio/rippleui";
+  const projectName = "namiui";
+  const githubProjectName = "wisdom-plus/NamiUI";
   const [totalDownloads, setTotalDownloads] = useState("");
   const [repoStars, setRepoStars] = useState("");
   const [totalContributors, setTotalContributors] = useState("");

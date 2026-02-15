@@ -54,7 +54,7 @@ export const Footer = () => {
           <ul className="flex flex-col gap-4 text-content2">
             <li>
               <Link
-                href={"https://github.com/Siumauricio/rippleui"}
+                href={"https://github.com/wisdom-plus/NamiUI"}
                 target="_blank"
                 className="hover:underline"
               >
@@ -88,7 +88,7 @@ export const Footer = () => {
           <ul className="flex flex-col gap-4 text-content2">
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/issues/new/choose"
+                href="https://github.com/wisdom-plus/NamiUI/issues/new/choose"
                 target="_blank"
                 className="hover:underline"
               >
@@ -97,7 +97,7 @@ export const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/blob/main/LICENSE"
+                href="https://github.com/wisdom-plus/NamiUI/blob/main/LICENSE"
                 target={"_blank"}
                 className="hover:underline"
               >
@@ -106,7 +106,7 @@ export const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/blob/main/CHANGELOG.md"
+                href="https://github.com/wisdom-plus/NamiUI/blob/main/CHANGELOG.md"
                 target={"_blank"}
                 className="hover:underline"
               >
@@ -120,7 +120,7 @@ export const Footer = () => {
           <ul className="flex flex-col gap-4 text-content2 ">
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/tree/main/examples/my-react-app"
+                href="https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-react-app"
                 className="hover:underline"
                 target="_blank"
               >
@@ -129,7 +129,7 @@ export const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/tree/main/examples/nextjs-example"
+                href="https://github.com/wisdom-plus/NamiUI/tree/main/examples/nextjs-example"
                 className="hover:underline"
                 target="_blank"
               >
@@ -138,7 +138,7 @@ export const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/tree/main/examples/my-remix-app"
+                href="https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-remix-app"
                 className="hover:underline"
                 target="_blank"
               >
@@ -147,7 +147,7 @@ export const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://github.com/Siumauricio/rippleui/tree/main/examples/my-svelte-app"
+                href="https://github.com/wisdom-plus/NamiUI/tree/main/examples/my-svelte-app"
                 className="hover:underline"
               >
                 Svelte

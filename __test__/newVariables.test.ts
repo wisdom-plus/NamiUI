@@ -12,7 +12,7 @@ test("Should return colors with -- in each property", (t) => {
   const result = extractNewVariables(colorsMap1, colorsMap2);
 
   expect(result).toEqual({
-    "blue-3": expect.any(Function),
+    "blue-3": "rgb(var(--blue-3) / <alpha-value>)",
   });
 });
 

@@ -8,7 +8,7 @@ export const CDN = () => {
       {`
 <link
    rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/rippleui@${RippleUIVersion}/dist/css/styles.css"
+   href="https://cdn.jsdelivr.net/npm/namiui@${RippleUIVersion}/dist/css/styles.css"
 />
 
 <!-- And -->

@@ -5,7 +5,7 @@ RippleUI uses [Next.js](https://nextjs.org/) for its documentation. Here is how 
 1. Clone this repo
 
     ```sh
-    git clone https://github.com/Siumauricio/rippleui/tree/main/docs
+    git clone https://github.com/wisdom-plus/NamiUI/tree/main/docs
     ```
 
 2. Go into the project root directory

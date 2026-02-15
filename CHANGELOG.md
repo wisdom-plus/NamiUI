@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0] - 2026-02-15
+
+### Breaking Changes
+
+- Migrated from Tailwind CSS v3 to v4 and set this fork as v4-only.
+- Package name changed to `namiui`.
+
+### Changed
+
+- Updated build pipeline to use `@tailwindcss/cli`.
+- Updated PostCSS integration to `@tailwindcss/postcss`.
+- Updated docs and selected examples (Next.js, React, Vue) for Tailwind v4 usage.
+
+### Notes
+
+- Existing known test failure before migration: `__test__/safeList.test.ts` (`bg-blue-1` expectation).
+
 ### [1.12.1](https://github.com/Siumauricio/rippleui/compare/v1.12.0...v1.12.1) (2023-04-23)
 
 

@@ -1,96 +1,53 @@
-![alt text for screen readers](https://raw.githubusercontent.com/Siumauricio/rippleui/main/docs/public/logo.png "RippleUI Logo")
+![RippleUI Fork logo](https://raw.githubusercontent.com/Siumauricio/rippleui/main/docs/public/logo.png "RippleUI Logo")
 
-<h1 align="center">Ripple UI</h1>
+<h1 align="center">Ripple UI v4 Fork</h1>
 
-<a href="https://www.npmjs.com/package/rippleui">
-    <img src="https://img.shields.io/npm/dm/rippleui.svg?style=flat-round" alt="npm downloads">
-  </a>
-<a href="https://www.npmjs.com/package/rippleui">
-    <img src="https://img.shields.io/npm/v/rippleui?color=green" alt="npm downloads">
-  </a>
-  <a href="https://www.npmjs.com/package/rippleui">
-    <img src="https://img.shields.io/npm/l/rippleui" alt="npm downloads">
-  </a>
+<a href="https://www.npmjs.com/package/namiui">
+  <img src="https://img.shields.io/npm/v/namiui?color=green" alt="npm version">
+</a>
+<a href="https://www.npmjs.com/package/namiui">
+  <img src="https://img.shields.io/npm/l/namiui" alt="license">
+</a>
 
-<a href="https://www.npmjs.com/package/rippleui"><img src="https://badgen.net/github/stars/Siumauricio/rippleui" ></a>
+Tailwind CSS v4-ready fork of RippleUI.
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/siumauricio/rippleui)
-
-Welcome to the RippleUI repository! This is the home for all of the components, guidelines, and tools that make up our design system.
-
-## Documentation
-
-Visit https://ripple-ui.com to view the full documentation.
-
-## 🚀 Usage
-
-To use the RippleUI components, you will need to install the package from npm.
+## Usage
 
 ```bash
-npm install rippleui
+npm install namiui
 ```
 
-Once you have installed the package, you can import the plugin into your `tailwind.config.js`.
+Add the plugin to your `tailwind.config.js`:
 
 ```js
 module.exports = {
-  // ... the rest of your config
-  plugins: [require("rippleui")],
+  // ...rest of your config
+  plugins: [require("namiui")],
 };
 ```
 
-To use a component, simply include the appropriate HTML markup in your project and apply the relevant classes using the class naming.
+Import Tailwind in your CSS entry:
 
-```html
-<button class="btn-primary btn">Click me!</button>
+```css
+@import "tailwindcss";
 ```
 
-## 🎨 Components
+Use classes in markup:
 
-Here is a list of all of the components that are currently available in RippleUI.
+```html
+<button class="btn btn-primary">Click me!</button>
+```
 
-- Button
-- Input
-- Select
-- Checkbox
-- Radio
-- Switch
-- Textarea
-- Modal
-- Button-Group
-- Tooltip
-- Dropdown
-- Badge
-- Navbar
-- Avatar
-- Breadcrumb
-- Drawer
-- Alert
-- Table
-- Card
-- Accordion
-- Tabs
-- Pagination
-- Divider
-- Skeleton
-- Stepper
-- Link
-- Dots (Status)
-- Range
-- Progress
-- KBD
-- Forms
-- Menu
-- Popover
-- Sidebar
-- Spinners / Loaders
-- Input File
-- More components soon....
+## Components
 
-## 🤝 Contributing
-
-We welcome contributions to the design system! If you have ideas for new components, improvements to existing ones, or updates to the guidelines and tools, please open a pull request with your proposed changes.
+Button, Input, Select, Checkbox, Radio, Switch, Textarea, Modal, Button Group, Tooltip, Dropdown, Badge, Navbar, Avatar, Breadcrumb, Drawer, Alert, Table, Card, Accordion, Tabs, Pagination, Divider, Skeleton, Stepper, Link, Dots, Range, Progress, KBD, Forms, Menu, Popover, Sidebar, Spinner, Input File.
 
 ## License
 
-RippleUI is licensed under the [MIT License](LICENSE).
+This project keeps the original MIT license terms from RippleUI. See `LICENSE`.
+
+## Attribution
+
+NamiUI is derived from the archived RippleUI project and is maintained independently.
+Original source: https://github.com/Siumauricio/rippleui
+All original copyright and MIT license terms are preserved.

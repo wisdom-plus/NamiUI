@@ -1,6 +1,6 @@
 ---
 title: Install
-description: Learn how to add customizable UI components to your project using TailwindCSS. Follow our step-by-step guide to install RippleUI and enhance your website or application's user experience.
+description: Learn how to add customizable UI components using Tailwind CSS v4 and Ripple UI v4 Fork.
 ---
 import { RippleUIVersion } from "../../utils/items";
 
@@ -10,12 +10,12 @@ How to install Ripple UI in your project
 
 ## Setup
 
-You can install RippleUI using npm, yarn or CDN.
+You can install RippleUI v4 Fork using npm, yarn or CDN.
 
-1. To install RippleUI plugin is required to have [TailwindCSS](https://tailwindcss.com/docs/installation) installed on your machine.
+1. To install the plugin, first install [Tailwind CSS v4](https://tailwindcss.com/docs/installation).
 
 ```bash disableTabs={true}
-npm install rippleui
+npm install namiui
 ```
 
 2. Add plugin to your `tailwind.config.js` file
@@ -23,11 +23,17 @@ npm install rippleui
 ```js disableTabs={true}
 module.exports = {
   // ... the rest of your config
-  plugins: [require("rippleui")],
+  plugins: [require("namiui")],
 };
 ```
 
-3. CDN
+3. Ensure your CSS entry imports Tailwind:
+
+```css disableTabs={true}
+@import "tailwindcss";
+```
+
+4. CDN
 
 If you prefer to use CDN, you can add the following link to your HTML file, but consider you can't remove the unused styles.
 

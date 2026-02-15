@@ -23,6 +23,11 @@ const baseCSS = fs.readFileSync(basePath + "/base.css", "utf-8");
 const componentsCSS = fs.readFileSync(basePath + "/components.css", "utf-8");
 const utilitiesCSS = fs.readFileSync(basePath + "/utilities.css", "utf-8");
 
+const stripAtRules = (styles: Record<string, any>) =>
+  Object.fromEntries(
+    Object.entries(styles).filter(([selector]) => !selector.startsWith("@"))
+  );
+
 const config = plugin.withOptions(
   (options) =>
     ({ addBase, addComponents, addUtilities, theme, config }) => {
@@ -30,8 +35,8 @@ const config = plugin.withOptions(
       const components = postcss.parse(componentsCSS);
       const utilities = postcss.parse(utilitiesCSS);
       const baseObj = postcssJs.objectify(base);
-      const componentsObj = postcssJs.objectify(components);
-      const utilitiesObj = postcssJs.objectify(utilities);
+      const componentsObj = stripAtRules(postcssJs.objectify(components));
+      const utilitiesObj = stripAtRules(postcssJs.objectify(utilities));
 
       const configValue: Config = config("rippleui") || { ...options } || {};
 
@@ -105,7 +110,7 @@ const config = plugin.withOptions(
 
           // We are gonna sort by specify, 1. :root 2. @media prefers-color-scheme, 3.[data-theme]
           const sortedThemes = sortThemes(unsortedThemes);
-          addBase(sortedThemes);
+          sortedThemes.forEach((theme) => addBase(theme as any));
         }
       }
 

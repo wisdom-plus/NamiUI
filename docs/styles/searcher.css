@@ -1,26 +1,30 @@
+@config "../tailwind.config.js";
+@reference "tailwindcss";
+
 :root {
-  --docsearch-muted-color: theme("colors.slate.500");
-  --docsearch-emphasis-color: theme("colors.slate.900");
+  --docsearch-muted-color: #64748b;
+  --docsearch-emphasis-color: #0f172a;
   --docsearch-logo-color: #5468ff;
   --docsearch-modal-width: 35rem;
   --docsearch-modal-height: 37.5rem;
-  --docsearch-modal-background: theme("colors.backgroundPrimary");
-  --docsearch-modal-shadow: theme("boxShadow.xl");
+  --docsearch-modal-background: rgb(var(--backgroundPrimary));
+  --docsearch-modal-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
   --docsearch-searchbox-height: 3rem;
-  --docsearch-hit-color: theme("colors.slate.700");
-  --docsearch-hit-active-color: theme("colors.sky.600");
-  --docsearch-hit-active-background: theme("colors.slate.100");
+  --docsearch-hit-color: #334155;
+  --docsearch-hit-active-color: #0284c7;
+  --docsearch-hit-active-background: #f1f5f9;
   --docsearch-footer-height: 3rem;
-  --docsearch-border-color: theme("colors.border");
-  --docsearch-input-color: theme("colors.slate.900");
-  --docsearch-heading-color: theme("colors.slate.900");
-  --docsearch-key-background: theme("colors.slate.100");
-  --docsearch-key-hover-background: theme("colors.slate.200");
-  --docsearch-key-color: theme("colors.slate.500");
-  --docsearch-action-color: theme("colors.slate.400");
-  --docsearch-action-active-background: theme("colors.slate.200");
-  --docsearch-loading-background: theme("colors.slate.400");
-  --docsearch-loading-foreground: theme("colors.slate.900");
+  --docsearch-border-color: rgb(var(--border));
+  --docsearch-input-color: #0f172a;
+  --docsearch-heading-color: #0f172a;
+  --docsearch-key-background: #f1f5f9;
+  --docsearch-key-hover-background: #e2e8f0;
+  --docsearch-key-color: #64748b;
+  --docsearch-action-color: #94a3b8;
+  --docsearch-action-active-background: #e2e8f0;
+  --docsearch-loading-background: #94a3b8;
+  --docsearch-loading-foreground: #0f172a;
 }
 
 .DocSearch--active {
